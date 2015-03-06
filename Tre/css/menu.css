@@ -1,0 +1,180 @@
+/* Phoca - http://www.phoca.cz/ */
+
+#ptm-nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+#ptm-nav ul,
+#ptm-nav li {
+	line-height:21px;
+	text-align:left;
+}
+
+#ptm-nav {
+	list-style:none;
+	height:43px;
+	margin: 0px;
+}
+
+#ptm-nav li.level0 {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 4px 12px 4px 12px;
+	margin-right:0px;
+	margin-top:7px;
+	border:none;
+	list-style:none;
+}
+
+#ptm-nav li.level0.parent:hover {
+	border: 1px solid #ccc;
+	padding: 3px 11px 4px 11px;
+	background: #F0EFEA;
+	background: -moz-linear-gradient(top, #F0EFEA, #F0EFEA);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0EFEA), to(#F0EFEA));
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	/* reverse - background: #ccc;*/
+}
+
+#ptm-nav li a {
+	font-size:14px; 
+	/*color: #333;*/
+	color: #ffffff;
+	display:block;
+	outline:0;
+	text-decoration:none;
+}
+
+#ptm-nav li:hover a {
+	text-decoration: underline;
+}
+#ptm-nav li.parent:hover a {
+	color:#555;
+	text-decoration: none;
+}
+
+#ptm-nav li .drop {
+	padding-right:18px;
+	background:url("../images/drop.png") no-repeat right 8px;
+}
+#ptm-nav li:hover .drop {
+	background:url("../images/drop2.png") no-repeat right 8px;
+}
+
+#ptm-nav ul.ptm-submenu, 
+.ptm-submenu {
+	margin:4px auto;
+	float:left;
+	position:absolute;
+	left:-999em;
+	text-align:left;
+	padding:10px 5px 10px 5px;
+	
+	
+	z-index: 100000000000;
+	
+	background:#F0EFEA;
+	background: -moz-linear-gradient(top, #F0EFEA, #F2F0F0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0EFEA), to(#F2F0F0));
+	border:1px solid #c0c0c0;
+	border-top:none;
+	/* reverse background: -moz-linear-gradient(top, #cccccc, #eee);
+	border:1px solid #ccc;*/
+	
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;
+
+	-webkit-box-shadow: 3px 3px 4px -3px #111;
+	-moz-box-shadow: 3px 3px 4px -3px #111;
+	box-shadow: 3px 3px 4px -3px #111;
+	
+	overflow: visible;
+	height: auto;
+	
+	
+}
+#ptm-nav ul.ptm-submenu-width1 {
+	width: 32em;
+}
+#ptm-nav ul.ptm-submenu-width2 {
+	width: 48em;
+}
+#ptm-nav ul.ptm-submenu-width3 {
+	width: 16em;
+}
+#ptm-nav .ptm-column {
+	-moz-column-count: 2;
+	-moz-column-gap: 1em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1em;
+}
+
+#ptm-nav ul.ptm-submenu {
+	padding: 10px 10px 10px 10px;
+}
+#ptm-nav ul.ptm-submenu li, 
+.ptm-submenu li {
+	list-style: none;
+	background: transparent url(../images/menuli.png) 0px 3px no-repeat;
+	padding-left: 14px;
+	padding-bottom: 5px;
+	
+}
+
+#ptm-nav ul.ptm-submenu li a, 
+.ptm-submenu li a{
+	color: #555;
+	padding-left: 5px;
+}
+
+#ptm-nav ul.ptm-submenu li a:hover, 
+.ptm-submenu li a:hover{
+	color: #fff;
+	background: #0099ff;
+}
+
+#ptm-nav ul.ptm-submenu li ul li, 
+.ptm-submenu li ul li {
+	
+	list-style: none;
+	background: transparent url(../images/menulismall.png) 0px 6px no-repeat;
+	padding-left: 12px;
+	padding-bottom: 0px;
+}
+#ptm-nav ul.ptm-submenu li ul li a, 
+.ptm-submenu li ul li a{
+	
+	font-size: small;
+}
+
+#ptm-nav ul.ptm-submenu li ul, 
+.ptm-submenu li ul {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+
+
+#ptm-nav li:hover .ptm-submenu {
+	left:-1px;
+	top:auto;
+}
+
+
+#ptm-nav .child {
+	clear: both;
+}
+
+
+#phoca-content1,
+#phoca-content2,
+#phoca-content3  {
+	overflow: visible !important;
+}

@@ -1,0 +1,102 @@
+/* Phoca - http://www.phoca.cz/ */
+
+#phoca-site {
+	background: #f2f0f0 url("../images/body-bg.png") repeat;
+	padding-top: 63px;
+}
+
+.phoca-top {
+	background: #000000 url("../images/header-bg.png") repeat-x;
+	border-bottom: 3px solid #fff !important;
+	filter: none;
+}
+
+.phoca-topmenu {
+	margin-right: 10px;
+}
+.phoca-topsearch {
+	margin-bottom: -10px;
+}
+
+.phoca-hr {
+	background: url("../images/hr.png") 100% repeat-x;
+	margin-top: 5px;
+}
+.phoca-hrg {
+	border-bottom: 1px solid #ccc;
+}
+
+#phoca-bottom {
+	background: #333 url("../images/footer-bg.png") 0 0 repeat-x;
+	border-top: 3px solid #000;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#phoca-bottom h3 {
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#phoca-footer {
+	
+	font-size: small;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #ccc;
+}
+.moduletable_menu,
+.module_menu {
+	background: #CCEBFF;
+	padding: 0px 5px 10px 10px;
+	
+	-webkit-box-shadow:1px 1px 2px 1px rgba(120, 120, 120, 0.5), inset 0px 0px 7px 7px rgba(240, 240, 240, 0.2);
+	box-shadow:1px 1px 2px 1px rgba(120, 120, 120, 0.5), inset 0px 0px 7px 7px rgba(240, 240, 240, 0.2);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #fff;
+	text-shadow: 1px 1px 1px #fff;
+	margin-bottom: 10px;
+}
+
+.moduletable_menu h3,
+.module_menu h3 {
+	background: url("../images/hr.png") 100% 100% repeat-x;
+}
+.module_menu .module-content {
+	
+}
+
+.moduletable_menu ul li,
+.module_menu ul li {
+	list-style: none;
+	background: transparent url(../images/menulismall.png) 0px 3px no-repeat;
+	padding-left: 14px;
+	padding-bottom: 5px;
+	margin-left: -10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.phoca-top a.brand {
+	color: #fff;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+.tabbable ul li.active a {
+	
+}
+.tab-content {
+	background: #fff;
+	padding: 10px;
+	padding-top: 20px;
+	margin-top: -20px;
+	border-bottom: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}

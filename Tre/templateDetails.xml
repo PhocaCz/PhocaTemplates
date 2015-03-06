@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+	<name>phoca_tre</name>
+	<version>1.0.4</version>
+	<creationDate>29/05/2014</creationDate>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<authorEmail></authorEmail>
+	<copyright>Jan Pavelka</copyright>
+	<description>TPL_PHOCA_TRE_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templates.php</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>helpers</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>models</folder>
+		<folder>themes</folder>
+	</files>
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>position-16</position>
+		<position>position-17</position>
+		<position>position-18</position>
+		<position>position-19</position>
+		<position>position-20</position>
+		<position>position-21</position>
+		<position>position-26</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_phoca_tre.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_phoca_tre.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+			
+			<fieldset name="advanced" addfieldpath="/templates/phoca_tre/models/fields">
+			
+			
+				<field name="display_logo" type="list" default="1" label="TPL_PHOCA_TRE_FIELD_DISPLAY_LOGO_LABEL" description="TPL_PHOCA_TRE_FIELD_DISPLAY_LOGO_DESC">
+					<option value="0">TPL_PHOCA_TRE_NO</option>
+					<option value="1">TPL_PHOCA_TRE_YES</option>
+				</field>
+			
+				<field name="logo" type="phocamedia"
+					default="templates/phoca_tre/images/logo.png" directoryimg="1"
+					label="TPL_PHOCA_TRE_FIELD_LOGO_LABEL" description="TPL_PHOCA_TRE_FIELD_LOGO_DESC" />
+					
+
+				<field name="sitetitle"  type="text" default=""
+					label="TPL_PHOCA_TRE_FIELD_SITETITLE_LABEL"
+					description="TPL_PHOCA_TRE_FIELD_SITETITLE_DESC"
+					filter="string" />
+
+
+			</fieldset>
+			
+			</fieldset>
+		</fields>
+	</config>
+</extension>
